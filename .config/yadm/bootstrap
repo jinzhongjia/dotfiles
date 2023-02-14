@@ -1,1 +1,11 @@
-echo "hello,world!"
+#!/bin/bash
+# bootstrap for yadm
+
+# install dependences with paru
+arch_install() {
+	paru -S "$1" --noconfirm --skipreview --mflags --skipchecksums
+}
+
+while read -r line; do
+	arch_install "$line"
+done <arch.install
