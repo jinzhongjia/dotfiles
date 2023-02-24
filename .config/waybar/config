@@ -10,7 +10,7 @@
 	"modules-right": [
 		"tray",
 		"backlight",
-		// "network",
+		"network",
 		"bluetooth",
 		// "wireplumber",
 		"temperature",
@@ -90,6 +90,16 @@
 			"mid": 50,
 			"high": 75
 		}
+	},
+	"network": {
+		// "family": "ipv6",
+		// "interface": "wlp2*", // (Optional) To force the use of this interface
+		"format-wifi": "<span color='#589df6'>⇵  </span> {bandwidthUpBytes}/{bandwidthDownBytes}",
+		"format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+		"format-linked": "{ifname} (No IP) ",
+		"format-disconnected": "Disconnected ⚠",
+		"format-alt": "{ifname}: {ipaddr}/{cidr}",
+		"interval": 5
 	},
 	"bluetooth": {
 		"format": " {status}",
@@ -171,7 +181,7 @@
 			"warning": 30,
 			"critical": 15
 		},
-		"format": " {icon}",
+		"format": "{icon}",
 		"format-icons": ["", "", "", "", ""],
 		"tooltip-format": "{capacity}%",
 		"max-length": 25
