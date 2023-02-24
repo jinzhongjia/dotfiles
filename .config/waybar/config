@@ -146,7 +146,7 @@
 	},
 	"disk": {
 		"interval": 300,
-		"format": "",
+		"format": "{free} ",
 		"format-alt-click": "click-right",
 		"tooltip-format": "{used} used\n{free} free\n{total} total",
 		"path": "/",
