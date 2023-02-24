@@ -111,7 +111,7 @@
 	"network": {
 		// "family": "ipv6",
 		// "interface": "wlp2*", // (Optional) To force the use of this interface
-		"format-wifi": "<span color='#589df6'>⇵  </span> {bandwidthUpBytes}/{bandwidthDownBytes}",
+		"format-wifi": "⇵  {bandwidthUpBytes}/{bandwidthDownBytes}",
 		"format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
 		"format-linked": "{ifname} (No IP) ",
 		"format-disconnected": "Disconnected ⚠",
