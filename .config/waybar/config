@@ -5,22 +5,19 @@
 	"margin": "0px 0px 0px 0px",
 	"mode": "dock",
 	"spacing": 4,
-	"modules-left": ["wlr/taskbar"],
-	"modules-center": ["clock"],
+	"modules-left": ["cpu", "memory", "temperature", "network", "disk"],
+	"modules-center": ["wlr/taskbar"],
 	"modules-right": [
 		"tray",
 		"backlight",
-		"network",
-		"bluetooth",
+		// "bluetooth",
 		// "wireplumber",
-		"temperature",
 		"gamemode",
-		"cpu",
-		"memory",
-		"disk",
 		"keyboard-state",
-		"idle_inhibitor",
-		"battery"
+		"battery",
+		"clock",
+		"idle_inhibitor"
+
 		// "clock"
 	],
 	"wlr/workspaces": {
@@ -162,14 +159,14 @@
 	"keyboard-state": {
 		"numlock": true,
 		"capslock": true,
-		"format": "{name} {icon}",
+		"format": "{name} {icon} ",
 		"format-icons": {
 			"locked": "",
 			"unlocked": ""
 		}
 	},
 	"idle_inhibitor": {
-		"format": "{icon}",
+		"format": "{icon} ",
 		"format-icons": {
 			"activated": "",
 			"deactivated": ""
@@ -181,7 +178,7 @@
 			"warning": 30,
 			"critical": 15
 		},
-		"format": "{icon}",
+		"format": "{icon} ",
 		"format-icons": ["", "", "", "", ""],
 		"tooltip-format": "{capacity}%",
 		"max-length": 25

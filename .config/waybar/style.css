@@ -159,6 +159,7 @@ label:focus {
 
 #bluetooth {
     background-color: darkkhaki;
+	padding: 0 5px;
 }
 
 #disk {
@@ -274,7 +275,7 @@ label:focus {
 }
 
 #keyboard-state > label {
-	/* padding: 0 5px; */
+	padding: 0 5px;
 }
 
 #keyboard-state > label.locked {
