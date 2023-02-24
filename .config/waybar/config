@@ -3,22 +3,24 @@
 	"position": "top",
 	"margin": "0px 0px 0px 0px",
 	"spacing": 4,
-	"modules-left": ["workspaces"],
+	// "modules-left": [
+	// 	"workspaces"
+	// ],
 	"modules-center": ["wlr/taskbar"],
 	"modules-right": [
 		"tray",
 		"backlight",
 		// "network",
 		"bluetooth",
-		"wireplumber",
+		// "wireplumber",
 		"gamemode",
 		"temperature",
 		"cpu",
 		"memory",
-		"keyboard-state",
-		"idle_inhibitor",
-		"battery",
-		"clock"
+		// "keyboard-state",
+		"idle_inhibitor"
+		// "battery"
+		// "clock"
 	],
 	"wlr/workspaces": {
 		"format": "{icon}",
