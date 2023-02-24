@@ -10,6 +10,7 @@
 	"modules-right": [
 		"tray",
 		"backlight",
+		"pulseaudio",
 		// "bluetooth",
 		// "wireplumber",
 		"gamemode",
@@ -82,6 +83,25 @@
 		"on-scroll-up": "light -A 5",
 		"on-scroll-down": "light -U 5",
 		"tooltip-format": "{percent}%",
+		"states": {
+			"low": 0,
+			"mid": 50,
+			"high": 75
+		}
+	},
+	"pulseaudio": {
+		"format": "{volume}% {icon}",
+		"format-alt-click": "click-right",
+		"format-bluetooth": "",
+		"format-muted": "婢",
+		"format-icons": {
+			"headphone": "",
+			"default": ["", ""]
+		},
+		"on-click": "pamixer --toggle-mute",
+		"tooltip-format": "{volume}",
+		"scroll-step": 5,
+		// "on-click": "pavucontrol",
 		"states": {
 			"low": 0,
 			"mid": 50,

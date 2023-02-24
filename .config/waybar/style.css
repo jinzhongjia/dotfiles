@@ -1,6 +1,7 @@
 * {
 	/* `otf-font-awesome` is required to be installed for icons */
-	font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+	font-family: "FiraCode Nerd Font", FontAwesome, Roboto, Helvetica, Arial,
+		sans-serif;
 	font-size: 15px;
 	border: none;
 	/* border-radius: 4px; */
@@ -184,7 +185,8 @@ label:focus {
 
 #pulseaudio.muted {
 	/* background-color: #90b1b1; */
-	color: #2a5c45;
+	/* color: #2a5c45; */
+	color: #ffffff; 
 }
 
 #wireplumber {
