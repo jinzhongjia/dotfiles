@@ -77,7 +77,7 @@
 	},
 	"backlight": {
 		/* "device": "intel_backlight", */
-		"format": "{icon}",
+		"format": "{percent}% {icon}",
 		"format-icons": ["", "", ""],
 		"on-scroll-up": "light -A 5",
 		"on-scroll-down": "light -U 5",
