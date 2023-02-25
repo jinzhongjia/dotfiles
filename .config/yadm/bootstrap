@@ -8,4 +8,4 @@ arch_install() {
 
 while read -r line; do
 	arch_install "$line"
-done <arch.install
+done <pipewire.install

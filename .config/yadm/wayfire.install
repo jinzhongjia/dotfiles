@@ -9,7 +9,11 @@ swaylock-effects-git
 kanshi
 wlsunset
 alsa-utils
+pamixer
 light
 swaybg
 xdg-desktop-portal-wlr
 network-manager-applet
+gnome-keyring
+libsecret
+blueman
