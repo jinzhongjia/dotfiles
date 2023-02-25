@@ -1,6 +1,10 @@
 export LANG=zh_CN.UTF-8
 export LANGUAGE=zh_CN:en_US
 
+if [ "$XDG_SESSION_TYPE" == "wayland" ]; then
+    export MOZ_ENABLE_WAYLAND=1
+fi
+
 if [ -n "$XDG_VTNR" ] ; then
     echo "Waiting for VT $XDG_VTNR:"
     for ((i=0;i<100;i++)) ; do
