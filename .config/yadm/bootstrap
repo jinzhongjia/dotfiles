@@ -47,3 +47,7 @@ for file in "$HOME"/.config/yadm/program/*; do
 	# 	echo "$file" 是目录
 	# fi
 done
+
+sudo usermod -aG docker $USER
+sudo usermod -aG input $USER
+sudo usermod -aG video $USER
