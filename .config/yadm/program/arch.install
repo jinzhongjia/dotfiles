@@ -1,22 +1,25 @@
-clang
-xmake
-cmake
-go
-nodejs
-npm
-pnpm
-yarn
-rustup
-python-pip
-python
+clang clang
+xmake xmake
+cmake cmake
+gcc gcc
+gdb gdb
+go go
+nodejs node
+npm npm
+pnpm pnpm
+yarn yarn
+rustup rustup
+python python
+python-pip pip
 ripgrep
-fd
-lazygit
-lazydocker
-zig
-docker
-docker-compose
-unzip
-neovim-git
-nitch
-neofetch
+fd fd
+lazygit lazygit
+lazydocker lazydocker
+zig-git
+docker docker
+docker-compose docker-compose
+unzip unzip
+neovim-git nvim
+nitch nitch
+neofetch neofetch
+glow glow

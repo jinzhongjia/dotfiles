@@ -1,17 +1,17 @@
-wayfire-lily-git
-wofi
-foot
-waybar
-mako
-wlogout
-swayidle
-swaylock-effects-git
-kanshi
-wlsunset
+wayfire wayfire
+wofi wofi
+foot foot
+waybar waybar
+mako mako
+wlogout wlogout
+swayidle swayidle
+swaylock-effects-git swaylock
+kanshi kanshi
+wlsunset wlsunset
 alsa-utils
-pamixer
-light
-swaybg
+pamixer pamixer
+light light
+swaybg swaybg
 xdg-desktop-portal-wlr
 network-manager-applet
 gnome-keyring
