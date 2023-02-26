@@ -11,3 +11,4 @@ pipewire-v4l2
 pipewire-x11-bell
 pipewire-zeroconf
 realtime-privileges 
+pamixer

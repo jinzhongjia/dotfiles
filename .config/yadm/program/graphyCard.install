@@ -5,4 +5,4 @@ lib32-vulkan-intel
 nvidia-dkms
 nvidia-settings
 lib32-nvidia-utils
-nvidia-prime
+nvidia-prime prime-run
