@@ -9,8 +9,8 @@
 	"modules-center": ["wlr/taskbar"],
 	"modules-right": [
 		"tray",
-		"backlight",
 		"pulseaudio",
+		"backlight",
 		// "bluetooth",
 		// "wireplumber",
 		"gamemode",
@@ -98,7 +98,8 @@
 			"headphone": "",
 			"default": ["", ""]
 		},
-		"on-click": "pamixer --toggle-mute",
+    "on-click": "~/.config/waybar/pago",
+		"on-click-middle": "pamixer --toggle-mute",
 		"tooltip-format": "{volume}",
 		"scroll-step": 5,
 		// "on-click": "pavucontrol",
