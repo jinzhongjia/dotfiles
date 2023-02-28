@@ -98,8 +98,8 @@
 			"headphone": "",
 			"default": ["", ""]
 		},
-    "on-click": "~/.config/waybar/pago",
-		"on-click-middle": "pamixer --toggle-mute",
+    "on-click": "pamixer --toggle-mute",
+		"on-click-right": "pavucontrol",
 		"tooltip-format": "{volume}",
 		"scroll-step": 5,
 		// "on-click": "pavucontrol",
