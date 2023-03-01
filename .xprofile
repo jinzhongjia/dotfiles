@@ -2,6 +2,7 @@ export LANG=zh_CN.UTF-8
 export LANGUAGE=zh_CN:en_US
 export QT_STYLE_OVERRIDE=Breeze
 export GTK_THEME=Breeze
+export MOZ_ENABLE_WAYLAND=1
 
 if [ "$XDG_SESSION_TYPE" == "wayland" ]; then
     export MOZ_ENABLE_WAYLAND=1
